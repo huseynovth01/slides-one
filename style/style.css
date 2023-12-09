@@ -6,24 +6,30 @@ body {
 }
 
 .container {
-  width: 100%;
   max-width: 800px;
+  width: 100%;
   height: 600px;
   display: flex;
   position: relative;
   overflow: hidden;
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
 }
 .container .photo {
-  background-size: cover;
   width: 100%;
   height: 350px;
   position: absolute;
   transition: all 1s;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .container .photo .image {
   width: 100%;
   height: 100%;
-  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .container .btn_left {
   position: absolute;

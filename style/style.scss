@@ -6,25 +6,27 @@ body {
   }
   
   .container {
-    width: 100%;
     max-width: 800px;
+    width: 100%;
     height: 600px;
     display: flex;
     position: relative;
     overflow: hidden;
+    border-radius: 5px;
+    object-fit: cover;
+    background-size: cover;
   
     .photo {
-      background-size: cover;
       width: 100%;
       height: 350px;
       position: absolute;
       transition: all 1s;
+      object-fit:cover;
+
       .image {
         width: 100%;
         height: 100%;
-        // object-fit: cover;
-        background-size: cover;
-
+        object-fit:cover;
       }
     }
   
