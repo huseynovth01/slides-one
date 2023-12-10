@@ -23,7 +23,7 @@ body {
       transition: all 1s;
       object-fit:cover;
 
-      .image {
+      img {
         width: 100%;
         height: 100%;
         object-fit:cover;
@@ -32,13 +32,13 @@ body {
   
     .btn_left {
       position: absolute;
-      top: 45%;
+      top: 30%;
       left: 0%;
     }
   
     .btn_right {
       position: absolute;
-      top: 45%;
+      top: 30%;
       right: 0%;
     }
   }
